@@ -10,7 +10,7 @@ I created this to use as a starting template for future Spring Batch processes.
 
 This Java project uses the Spring Batch framework, the reference implementation of JSR-352 (https://docs.spring.io/spring-batch/reference/html/jsr-352.html). It takes an xml file of applicants, unmarshalls the data using the Spring OXM Jaxb2Marshaller, and loads it to a MySQL database table. For simplicity, the project structure is 'flat' in that all code is at the same package level. The code features:
 
-* Spring Batch
+* Spring Batchx
 * Maven
 * MySQL
 * logback
