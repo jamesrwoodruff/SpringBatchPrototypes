@@ -15,10 +15,17 @@ This Java project uses the Spring Batch framework, the reference implementation 
 * MySQL
 * logback
 
-## Setup and Installation
+## Requirements
 
-* Create a Maven project and copy into it the code from this repository, including pom.xml
-* Startup MySQL and:
+* MySQL and connector
+
+## Setup
+
+* Clone this repo
+* Run mvn clean install
+* Startup MySQL, then:
+  * create mysql database called *some_schema*
+  * test connection (jdbc:mysql://localhost:3306/some_schema)
   * execute schema-mysql.sql to create Spring Batch meta-tables
   * execute create-applicant-table.sql to create table *applicant*
 
@@ -26,7 +33,7 @@ This Java project uses the Spring Batch framework, the reference implementation 
 
 * From Eclipse or other IDE:
   * right click ApplicantLoadJob Launcher, Run As Java Application
-* Verify rows were inserted into table *applicant*
+* Verify rows were inserted into table *applicant* (and batch meta-tables)
 * To run again, delete rows from *applicant*
 
 ## Configuration
