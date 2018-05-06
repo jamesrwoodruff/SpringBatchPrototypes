@@ -38,7 +38,7 @@ This Java project uses the Spring Batch framework, the reference implementation 
 
 ## Configuration
 
-I opted to use Java configuration (often referred to as **JavaConfig** in Spring terminology), my preference over XML configuration. I spread the configuration in this project across 3 classes:
+I opted for Java configuration (often referred to as **JavaConfig** in Spring terminology) over XML configuration. I spread the configuration in this project across 3 classes:
 
 * ApplicationConfiguration
 * BatchConfiguration
