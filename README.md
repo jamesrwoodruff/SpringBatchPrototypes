@@ -2,4 +2,4 @@
 
 Spring Batch prototypes.
 
-#https://api.travis-ci.com/repos/jamesrwoodruff/SpringBatchPrototypes/cc.xml?branch=master
+[![Build Status](https://travis-ci.com/jamesrwoodruff/SpringBatchPrototypes.svg?branch=master)](https://travis-ci.com/jamesrwoodruff/SpringBatchPrototypes)
