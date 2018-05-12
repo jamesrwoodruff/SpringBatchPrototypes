@@ -3,3 +3,4 @@ jdk: oraclejdk8
 script: 
  - cd SpringBatchPrototype01
  - mvn clean package
+ - mvn cobertura:cobertura
