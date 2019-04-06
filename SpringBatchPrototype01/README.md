@@ -1,10 +1,8 @@
 ## Objective
 
-This is a simple Spring Batch prototype.
+This is a simple Spring Batch prototype, created to use as a starting template for future Spring Batch processes.
 
 This is based on a recent project where I wrote a new batch process that consumes XML data, parses it and loads it to a database. This Spring Batch process pulls together some of the techniques employed and lessons learned while researching and implementing that project.
-
-I created this to use as a starting template for future Spring Batch processes.
 
 ## Technical Summary
 
