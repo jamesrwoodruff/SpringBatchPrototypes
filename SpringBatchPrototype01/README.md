@@ -2,7 +2,7 @@
 
 A simple Spring Batch prototype to use as a starting template. 
 
-Copied the Spring Batch Getting Started Guide presented here (code here) and pointed it to a local MySQL instance (instead of an embedded hsqldb db).
+Copied the Spring Batch Getting Started [Guide](https://spring.io/guides/gs/batch-processing/) (code [here](https://github.com/spring-guides/gs-batch-processing/tree/main/complete)) and pointed it to a local MySQL instance (instead of an embedded hsqldb).
 
 To enable that, I first created the meta tables described here. And followed the upgrade guide here.
 
